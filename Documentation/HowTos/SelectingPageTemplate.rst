@@ -40,7 +40,7 @@ Here, the properties `layout` and `subpageLayout` are configured inside `Neos.Ne
 
 
 When all this is done we need to bind the layout to a rendering and this is done in Fusion,
-f.e. in VendorName.VendorSite/Resources/Private/Fusion/Root.ts::
+f.e. in VendorName.VendorSite/Resources/Private/Fusion/Root.fusion::
 
     page.body {
         // standard "Page" configuration
